@@ -35,7 +35,8 @@ are on the same Wi-Fi. SideStore refreshes on the device itself.
 
 If you already use a signer, take the file and sign it there:
 
-- **Build:** [CortexAI-1.5.ipa](https://cortanime.eu/api/cortexai/app/ipa)
+- **Build:** [CortexAI-1.5.ipa](https://cortanime.eu/api/cortexai/app/ipa) — 4 323 198 bytes,
+  `sha256 0c033fabc817de0ba9e95b45e0f13e242e03c531624be4d3dc76baa506b133d8`
 - **Signer (third party):** [applejr.net signer](https://applejr.net/#signer)
 
 Upload the IPA to the signer, sign it with your certificate, then install the signed result.
@@ -75,6 +76,8 @@ identifier (`eu.cortex.ai`) cannot coexist on one device.
 - Memory: what you tell it stays with the conversation across restarts, and you can delete
   any note from Settings.
 - No trackers, no advertising identifiers, no account.
+- **Settings → Get Cortex AI** inside the app shows this same install information, with a
+  copy button for the source address and a share link for the install page.
 
 ---
 
